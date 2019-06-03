@@ -1,0 +1,211 @@
+/* Navigation Bar - Header */
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}  
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'Verdana', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   left: 0;
+   top: 0;
+   background: transparent;
+   border: none;
+}
+ul#nav li a {
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+ul#nav li a:active { color: #F06000; }
+ul#nav li a:hover { color: #F06000; }
+
+
+/* header social links */
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+header .social li a { color: #fff; }
+header .social li a:hover { color: #11ABB0; }
+
+header:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+   font: 90px/1.1em 'Verdana', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 250px auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+   font: 18px/1.9em 'Verdana', serif;
+   color: #F06000;
+   margin: 0 auto;
+   width: 70%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   font-weight: bold;
+}
+
+header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+header {
+   position: relative;
+   height: auto;
+   min-height: 900px;
+   width: 100%;
+   background: #161415 url(../images/index_first.jpg) no-repeat top center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: #993d00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 1px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 20%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button a
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+body
+{
+  
+}
+#set_background
+{
+  width: 100%;
+  padding-bottom: 23px;
+}
+#quotes
+{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ),url("../images/quotes_image.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#quotes h3
+{
+  font-family: Verdana;
+  line-height: 33px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-style: italic;
+  color: #cccccc;
+}
+#carousel-example-generic
+{
+  margin: 0;
+}
+.caption_images
+{
+  font-family: Verdana;
+  font-size: 28px;
+  padding: 2%;
+  background:rgba(0,0,0,0.5);
+}

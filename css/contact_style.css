@@ -1,0 +1,65 @@
+#contact_form
+{
+  background-color: #1a1a1a;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#contact_form h5
+{
+  color: white;
+  font-weight: bold;
+  font-family: Verdana;
+}
+.input-group
+{
+  padding: 7%;
+}
+.form-control
+{
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Verdana;
+}
+#message
+{
+  resize: none;
+}
+.labels_of_input_fields
+{
+  padding: 8%;
+}
+#submit_btn_div
+{
+  padding: 7%;
+}
+#submit_btn
+{
+  color: white;
+  background-color: black;
+  font-family: Verdana;
+  font-weight: bold;
+  border: none;
+  padding: 15px;
+}
+#submit_btn:hover
+{
+  color: black;
+  background-color: white;
+  font-family: Verdana;
+  font-weight: bold;
+}
+#tweets_address_phone p
+{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#tweets_address_phone p
+{
+  font-family: Verdana;
+  color: #666666;
+}
+#tweets_address_phone h5
+{
+  font-family: Verdana;
+}
